@@ -6,6 +6,14 @@ Projeto desenvolvido no projeto de extensão AILAB Makers — UnB FCTE.
 
 ---
 
+## Visão rápida para avaliação técnica
+
+**Arquitetura:** interface em Next.js/TypeScript → API em FastAPI/Python → PostgreSQL. Docker Compose organiza os serviços locais; GitHub Actions automatiza verificações no repositório. O fluxo separa os perfis de colaborador e RH e registra ações de auditoria.
+
+**Evidências no repositório:** código do frontend e backend, configuração de contêineres, fluxos de CI, modelagem do banco e histórico de contribuições da equipe. O projeto segue em desenvolvimento; não há métricas públicas de adoção ou desempenho validadas para divulgar aqui.
+
+**Como executar:** use a seção [Como executar o projeto com Docker](#como-executar-o-projeto-com-docker) abaixo. Configure as variáveis a partir de `.env.example` antes de iniciar os serviços.
+
 ## Sobre o Projeto
 
 O **OnBoarding Digital** digitaliza o fluxo de admissão de novos colaboradores, substituindo processos manuais baseados em e-mails, planilhas e documentos dispersos.
